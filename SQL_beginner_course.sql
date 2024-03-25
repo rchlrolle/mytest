@@ -131,17 +131,3 @@ ALTER TABLE employee RENAME TO employee_new;
 CREATE TABLE employee_details SELECT * FROM employee_new; #you can use this to copy information from a table
 SELECT * FROM employee_details;
 
-library(tidyverse)
-library(dplyr)
-library(data.table)
-
-diamonds
-
-diamonds%>%
-  select(carat,cut,price)%>%
-  filter(cut == "Premium")%>%
-  filter(price > 7000 & price < 10000)%>%
-  arrange(desc(carat))%>%
-  slice(1:20)
-
-
