@@ -2,7 +2,9 @@
 
 library(tidyverse)
 library(dplyr)
-diamonds
+
+diamonds%>%
+glimpse()
 
 diamonds%>%
 select(x,y,z)%>%
