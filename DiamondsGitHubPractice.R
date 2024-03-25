@@ -1,3 +1,5 @@
+#Author: Rachel Rolle
+
 library(tidyverse)
 library(dplyr)
 diamonds
