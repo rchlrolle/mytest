@@ -1,4 +1,4 @@
 # mytest
 brief descr
 
-About Me Data Science M.s. Student; will be graduation in August 2024
+About Me Data Science M.S. Student; will be graduating in August 2024
